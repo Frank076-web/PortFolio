@@ -96,12 +96,13 @@ export const projects = [
 		image: '/images/portada somos mas.png',
 		title: 'Somos Más',
 		description:
-			'Página web para la ong Somos Más, centro de ayuda comunitaria'
+			'Página web para la ong Somos Más, centro de ayuda comunitaria',
+		link: 'https://ongsomosmasfrank076.netlify.app'
 	},
 	{
 		image: '/images/marvel.jpg',
 		title: 'Buscador Héroes Marvel',
-		description:
-			'Página web para la ong Somos Más, centro de ayuda comunitaria'
+		description: 'Página web buscador de heroes , armá tu equipo.',
+		link: 'https://buscadorheroesalkemy.netlify.app'
 	}
 ];
