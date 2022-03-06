@@ -1,0 +1,13 @@
+@import '../../../styles/_variables';
+
+.header {
+	background-color: $backgroundColorPrimary;
+	color: $white;
+	padding: 1.5rem;
+
+	p {
+		margin: 0;
+		font-size: 1.6rem;
+		font-weight: bold;
+	}
+}

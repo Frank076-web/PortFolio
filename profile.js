@@ -15,7 +15,7 @@ export const skills = [
 		name: 'Sass',
 		image: '/images/Sass.png',
 		alt: 'sass',
-		level: '40%'
+		level: '85%'
 	},
 	{
 		name: 'Javascript',

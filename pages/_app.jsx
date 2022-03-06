@@ -1,5 +1,5 @@
 import 'bootswatch/dist/cosmo/bootstrap.min.css';
-import '../components/index/SectionProjects.css';
+import '../styles/index.scss';
 import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {

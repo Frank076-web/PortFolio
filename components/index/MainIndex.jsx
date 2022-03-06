@@ -2,31 +2,47 @@ import Image from 'next/image';
 
 const MainIndex = () => {
 	return (
-		<main>
-			<div className="row">
-				<div className="col-md-12">
-					<div className="card card-body bg-secondary text-light">
-						<div className="row">
-							<div className="col-md-4 text-center">
-								<Image
-									src="/images/frank-image.png"
-									alt="Image-curriculum"
-									width={300}
-									height={300}
-									objectFit="contain"
-								/>
-							</div>
-							<div className="col-md-8">
-								<h1>Franco Inzerillo</h1>
-								<h4>Desarrollador Web FrontEnd</h4>
-								<h2 className="text-primary mt-5">Contactame</h2>
-								<ul>
-									<li>Móvil: (011) 1533260503</li>
-									<li>
-										Correo Electrónico: francoeinzerillo@gmail.com
-									</li>
-								</ul>
-							</div>
+		<main className="main">
+			<div className="main__image">
+				<Image
+					src="/images/frank-image.png"
+					alt="Image-curriculum"
+					width={300}
+					height={300}
+					objectFit="cover"
+				/>
+			</div>
+
+			<div className="main__text-container">
+				<div className="main__title">
+					<h1>Franco Elias Inzerillo</h1>
+					<h4>Desarrollador Web FrontEnd</h4>
+				</div>
+
+				<div className="main__contact-media">
+					<div className="main__contact-media__contact">
+						<h2>Contactame</h2>
+						<ul>
+							<li>Móvil: (011) 1533260503</li>
+							<li>Correo Electrónico: francoeinzerillo@gmail.com</li>
+						</ul>
+					</div>
+					<div className="main__contact-media__social">
+						<h2>Redes Sociales</h2>
+						<div className="main__contact-media__social__images">
+							<a href="https://wa.me/1533260503?">
+								<img src="/images/whatsapp.svg" alt="whatsapp" />
+							</a>
+							<a href="mailto:francoeinzerillo@gmai.com?">
+								<img src="/images/gmail.svg" alt="gmail" />
+							</a>
+							<a
+								href="https://www.linkedin.com/in/franco-elias-inzerillo-9b1a37163"
+								rel="noreferrer"
+								target="_blank"
+							>
+								<img src="/images/linkedin.svg" alt="linkedin" />
+							</a>
 						</div>
 					</div>
 				</div>
