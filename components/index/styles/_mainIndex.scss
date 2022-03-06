@@ -80,9 +80,9 @@
 			}
 
 			h2 {
+				color: $primary;
 				@include tablet {
 					text-align: center;
-					color: $primary;
 				}
 			}
 			a {
