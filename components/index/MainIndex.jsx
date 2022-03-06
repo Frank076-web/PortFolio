@@ -30,7 +30,7 @@ const MainIndex = () => {
 					<div className="main__contact-media__social">
 						<h2>Redes Sociales</h2>
 						<div className="main__contact-media__social__images">
-							<a href="https://wa.me/1133260503?">
+							<a href="https://ultramsg.com/m/3vIWHnu">
 								<img src="/images/whatsapp.svg" alt="whatsapp" />
 							</a>
 							<a href="mailto:francoeinzerillo@gmai.com?">
