@@ -1,12 +1,28 @@
+/************************** 	MEDIA QUERY  *********************************/
 $brakpoints: (
 	sm: 540px,
 	md: 768px,
-	lg: 1024px,
-	xl: 1280px
+	lg: 1024px
 );
 
-@mixin media-up($breakpoint) {
+@mixin media($breakpoint) {
 	@media screen and (min-width: map-get($brakpoints, $breakpoint)) {
 		@content;
+	}
+}
+
+/************************** 	FLEXBOX  *********************************/
+
+@mixin flex($direction, $justify, $align, $wrap: nowrap) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justify;
+	align-items: $align;
+	flex-wrap: $wrap;
+
+	@media screen and (max-width: map-get($brakpoints, sm )) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 }
