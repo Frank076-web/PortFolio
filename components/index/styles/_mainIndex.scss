@@ -21,7 +21,7 @@
 			font-weight: bold;
 			font-size: 2rem;
 			margin: 0 0 1rem 0;
-			@include media(lg) {
+			@include desktop {
 				font-size: 3rem;
 			}
 		}
@@ -30,7 +30,7 @@
 			font-size: 1.5rem;
 			letter-spacing: 0.2rem;
 			margin: 0 0 1rem 0;
-			@include media(lg) {
+			@include desktop {
 				font-size: 2.4rem;
 				letter-spacing: 0.6rem;
 			}
@@ -44,18 +44,19 @@
 
 	&__contact-media {
 		@include flex(row, center, flex-start);
-		@include media(md) {
+		@include tablet {
 			font-size: 0.6rem;
 		}
-		@include media(lg) {
+		@include desktop {
 			font-size: 1.2rem;
 		}
 
 		&__contact {
 			h2 {
 				text-align: center;
+				color: $primary;
 			}
-			@include media(sm) {
+			@include tablet {
 				h2 {
 					text-align: start;
 				}
@@ -64,7 +65,7 @@
 			ul {
 				li {
 					list-style: square;
-					@include media(md) {
+					@include tablet {
 						font-size: 0.9rem;
 					}
 				}
@@ -74,12 +75,13 @@
 		&__social {
 			margin-left: auto;
 			margin-right: auto;
-			@include media(md) {
+			@include tablet {
 				width: 100%;
 			}
 
 			h2 {
-				@include media(md) {
+				color: $primary;
+				@include tablet {
 					text-align: center;
 				}
 			}
@@ -90,11 +92,11 @@
 					margin-left: 1rem;
 					margin-bottom: 1rem;
 
-					@include media(md) {
+					@include tablet {
 						margin-left: 0.2rem;
 						margin-right: 0.2rem;
 					}
-					@include media(lg) {
+					@include desktop {
 						width: 4rem;
 						height: 4rem;
 						margin: 1rem;
@@ -108,7 +110,7 @@
 			}
 
 			&__images {
-				@include media(md) {
+				@include tablet {
 					@include flex(row, center, center);
 				}
 				@media screen and (min-width: 736px) and (max-width: 768px) {

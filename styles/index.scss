@@ -2,6 +2,16 @@
 @import './_normalize';
 @import './_global';
 /************************** 	COMPONENT STYLES IMPORTS  *********************************/
-@import '../components/index/styles/_sectionProjects';
+@import '../components//Layout/styles/layout';
+
 @import '../components/Layout/styles/_header';
+
 @import '../components/index/styles/mainIndex';
+
+@import '../components/index/styles/index';
+
+@import '../components/index/styles/sectionExperience';
+
+@import '../components/index/styles/sectionSkills';
+
+@import '../components/index/styles/_sectionProjects';
