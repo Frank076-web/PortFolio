@@ -15,7 +15,7 @@ export const skills = [
 		name: 'Sass',
 		image: '/images/Sass.png',
 		alt: 'sass',
-		level: '85%'
+		level: '80%'
 	},
 	{
 		name: 'Javascript',
@@ -33,7 +33,7 @@ export const skills = [
 		name: 'NextJS',
 		image: '/images/NextJs.png',
 		alt: 'nextjs',
-		level: '20%'
+		level: '30%'
 	}
 ];
 

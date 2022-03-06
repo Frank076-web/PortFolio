@@ -6,7 +6,7 @@ $brakpoints: (
 );
 
 @mixin mobile {
-	@media screen and (min-width: map-get($brakpoints, sm)) {
+	@media screen and (max-width: map-get($brakpoints, sm)) {
 		@content;
 	}
 }
@@ -24,16 +24,49 @@ $brakpoints: (
 }
 /************************** 	FLEXBOX  *********************************/
 
-@mixin flex($direction, $justify, $align, $wrap: nowrap) {
+@mixin flex(
+	$direction,
+	$justify: stretch,
+	$align: stretch,
+	$wrap: nowrap
+) {
 	display: flex;
 	flex-direction: $direction;
 	justify-content: $justify;
 	align-items: $align;
 	flex-wrap: $wrap;
 
-	@media screen and (max-width: map-get($brakpoints, sm )) {
+	@media screen and (max-width: map-get($brakpoints, sm)) {
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 	}
+}
+
+/************************** 	GRID  *********************************/
+
+@mixin grid(
+	$columns,
+	$gap: 0,
+	$justify: stretch,
+	$align: stretch,
+	$wrap: nowrap
+) {
+	display: grid;
+	grid-template-columns: repeat($columns, 1fr);
+	column-gap: $gap;
+	row-gap: $gap;
+	justify-items: $justify;
+	align-items: $align;
+	flex-wrap: $wrap;
+
+	@media screen and (max-width: map-get($brakpoints, sm )) {
+		grid-template-columns: 1fr;
+	}
+}
+
+@mixin responsiveGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 2rem;
+	justify-content: center;
+	align-items: center;
 }

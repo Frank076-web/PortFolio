@@ -1,27 +1,25 @@
-import Image from 'next/image';
 import { skills } from '../../profile';
 
 const SectionSkills = () => {
 	return (
-		<section className="col-md-4">
-			<div className="card bg-light h-100">
-				<div className="card-body">
-					<h1 className="text-primary">Skills</h1>
+		<section className="section-skills">
+			<div className="container">
+				<h2>Skills</h2>
 
-					{skills.map(({ name, image, alt, level }, index) => (
-						<div className="py-4" key={index}>
-							<Image src={image} alt={alt} width={50} height={50} />
+				{skills.map(({ name, image, alt, level }, index) => (
+					<div className="section-skills__skills" key={index}>
+						<div className="section-skills__skills--logo">
 							<h5>{name}</h5>
-							<div className="progress">
-								<div
-									className="progress-bar"
-									role="progressbar"
-									style={{ width: `${level}` }}
-								/>
-							</div>
+							<img src={image} alt={alt} />
 						</div>
-					))}
-				</div>
+						<div className="section-skills__progressbar">
+							<div
+								className="section-skills__progressbar__bar"
+								style={{ width: `${level}` }}
+							/>
+						</div>
+					</div>
+				))}
 			</div>
 		</section>
 	);

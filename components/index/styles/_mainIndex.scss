@@ -54,6 +54,7 @@
 		&__contact {
 			h2 {
 				text-align: center;
+				color: $primary;
 			}
 			@include tablet {
 				h2 {
@@ -81,6 +82,7 @@
 			h2 {
 				@include tablet {
 					text-align: center;
+					color: $primary;
 				}
 			}
 			a {

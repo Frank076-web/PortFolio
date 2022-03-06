@@ -1,0 +1,21 @@
+@import '../../../styles/variables';
+
+.section-experience {
+	background-color: $backgroundColorSecondary;
+	h2 {
+		color: $primary;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	& ul {
+		li {
+			list-style-type: square;
+		}
+	}
+
+	&__interest {
+		font-size: 1.3rem;
+		text-align: center;
+	}
+}

@@ -9,18 +9,16 @@ const Home = () => {
 	return (
 		<>
 			<Head>
-				<title>My portfolio</title>
+				<title>Franco Inzerillo</title>
 			</Head>
 
 			<Layout>
-				<div className="container p-4">
-					<MainIndex />
-					<div className="row py-2">
-						<SectionSkills />
-						<SectionExperience />
-					</div>
-					<SectionPorjects />
+				<MainIndex />
+				<div className="index__skills-experience">
+					<SectionSkills />
+					<SectionExperience />
 				</div>
+				<SectionPorjects />
 			</Layout>
 		</>
 	);
