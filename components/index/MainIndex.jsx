@@ -16,7 +16,7 @@ const MainIndex = () => {
 									objectFit="contain"
 								/>
 							</div>
-							<div className="col-md-8">
+							<div className="col-md-4">
 								<h1>Franco Inzerillo</h1>
 								<h4>Desarrollador Web FrontEnd</h4>
 								<h2 className="text-primary mt-5">Contactame</h2>
@@ -26,6 +26,9 @@ const MainIndex = () => {
 										Correo Electrónico: francoeinzerillo@gmail.com
 									</li>
 								</ul>
+							</div>
+							<div className="col-md-4">
+								<h2 className="text-primary">Redes Sociales</h2>
 							</div>
 						</div>
 					</div>
