@@ -5,12 +5,23 @@ $brakpoints: (
 	lg: 1024px
 );
 
-@mixin media($breakpoint) {
-	@media screen and (min-width: map-get($brakpoints, $breakpoint)) {
+@mixin mobile {
+	@media screen and (min-width: map-get($brakpoints, sm)) {
 		@content;
 	}
 }
 
+@mixin tablet {
+	@media screen and (min-width: map-get($brakpoints, md)) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media screen and (min-width: map-get($brakpoints, lg)) {
+		@content;
+	}
+}
 /************************** 	FLEXBOX  *********************************/
 
 @mixin flex($direction, $justify, $align, $wrap: nowrap) {
