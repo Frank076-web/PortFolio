@@ -1,1 +1,6 @@
-@import "../components/index/sectionProjects"
+/************************** 	GLOBAL IMPORTS  *********************************/
+@import './_normalize';
+@import './_global';
+/************************** 	COMPONENT STYLES IMPORTS  *********************************/
+@import '../components/index/_sectionProjects';
+@import '../components/Layout/_header';
