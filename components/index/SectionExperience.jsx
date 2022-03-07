@@ -47,7 +47,6 @@ const SectionExperience = () => {
 					)
 				)}
 			</ul>
-
 			<div className="section-experience__interest">
 				<h2>Intereses</h2>
 				<p>Desarrollo Web FrontEnd</p>
