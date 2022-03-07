@@ -46,13 +46,12 @@ const SectionExperience = () => {
 						</li>
 					)
 				)}
-
-				<h2>Intereses</h2>
-				<div className="section-experience__interest">
-					<p>Desarrollo Web FrontEnd</p>
-					<p>Desarrollo Web BackEnd</p>
-				</div>
 			</ul>
+			<div className="section-experience__interest">
+				<h2>Intereses</h2>
+				<p>Desarrollo Web FrontEnd</p>
+				<p>Desarrollo Web BackEnd</p>
+			</div>
 		</section>
 	);
 };
