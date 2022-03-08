@@ -7,7 +7,7 @@ import Layout from '../components/Layout/Layout';
 
 const Home = () => {
 	return (
-		<>
+		<div>
 			<Head>
 				<title>Franco Inzerillo</title>
 			</Head>
@@ -20,7 +20,7 @@ const Home = () => {
 				</div>
 				<SectionPorjects />
 			</Layout>
-		</>
+		</div>
 	);
 };
 
