@@ -19,20 +19,24 @@ const SectionExperience = () => {
 									<h6>
 										{company} | {duration}
 									</h6>
-									{typeof description === 'object' ? (
-										Object.keys(description).map((element, index) => (
-											<li
-												style={{
-													listStyle: 'circle'
-												}}
-												key={index}
-											>
-												<p>{description[element]}</p>
-											</li>
-										))
-									) : (
-										<p>{description}</p>
-									)}
+									<ul>
+										{typeof description === 'object' ? (
+											Object.keys(description).map(
+												(element, index) => (
+													<li
+														style={{
+															listStyle: 'circle'
+														}}
+														key={index}
+													>
+														<p>{description[element]}</p>
+													</li>
+												)
+											)
+										) : (
+											<p>{description}</p>
+										)}
+									</ul>
 								</div>
 							</li>
 						)
