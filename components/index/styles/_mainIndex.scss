@@ -10,6 +10,12 @@
 	&__image {
 		text-align: center;
 		margin: 1rem;
+		@include tablet {
+			margin-right: 2rem;
+		}
+		@include desktop {
+			margin-right: 0;
+		}
 	}
 
 	&__title {
@@ -64,9 +70,11 @@
 
 			ul {
 				li {
-					list-style: square;
+					text-align: center;
 					@include tablet {
-						font-size: 0.9rem;
+						list-style: square;
+						font-size: 1rem;
+						text-align: start;
 					}
 				}
 			}

@@ -51,6 +51,18 @@ export const experience = [
 		duration: 'Mayo-2015 Julio-2015',
 		description:
 			'Montaje y soldado de componentes electrónicos. Empleado en pasantías por 200 horas.'
+	},
+	{
+		title: 'Frontend Developer React',
+		company: 'Alkemy',
+		duration: 'Enero-2022 Marzo-2022',
+		description: {
+			first: 'Simulación de trabajo real en equipo.',
+			second: 'Manejo de repositorios Git con Github.',
+			third: 'Metodologías Ágiles (Scrum).',
+			fourth:
+				'Uso de la herramienta Jira para gestionar los proyectos.'
+		}
 	}
 ];
 
@@ -63,16 +75,6 @@ export const education = [
 			first:
 				'Análisis, Medición y calculos de circuitos electrónicos.',
 			second: 'Programación en C y microcontroladores'
-		}
-	},
-	{
-		institution: 'Alkemy',
-		career: 'Aceleración en React perfil JobReady ',
-		duration: 'Enero-2022 Marzo-2022',
-		description: {
-			first: 'Simulación de trabajo real en equipo.',
-			second: 'Manejo de repositorios Git con Github.',
-			third: 'Metodologías Ágiles (Scrum).'
 		}
 	},
 	{
