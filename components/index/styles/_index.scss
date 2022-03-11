@@ -3,5 +3,8 @@
 .index__skills-experience {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
-	@include grid(2, 1rem);
+	@include grid(1, 1rem);
+	@include desktop {
+		@include grid(2, 1rem);
+	}
 }

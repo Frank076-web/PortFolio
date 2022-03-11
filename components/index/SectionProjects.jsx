@@ -3,7 +3,7 @@ import { projects } from '../../profile';
 const SectionPorjects = () => {
 	return (
 		<section className="section-projects">
-			<h2>Projectos</h2>
+			<h2>Proyectos</h2>
 			<div className="section-projects__cards">
 				{projects.map(
 					({ image, title, description, link }, index) => (

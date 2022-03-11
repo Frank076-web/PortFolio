@@ -9,3 +9,24 @@
 		transform: scale(1);
 	}
 }
+
+@keyframes bounce {
+	from {
+		transform: translate(0, 0);
+	}
+	20% {
+		transform: translate(0, -0.1rem);
+	}
+	40% {
+		transform: translate(0, 0.1rem);
+	}
+	60% {
+		transform: translate(0, -0.1rem);
+	}
+	80% {
+		transform: translate(0, 0.1rem);
+	}
+	to {
+		transform: translate(0);
+	}
+}
