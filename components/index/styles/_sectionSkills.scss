@@ -51,8 +51,7 @@
 			background-size: 200%;
 			height: 0.4rem;
 			border-radius: 1rem;
-			animation: progressBarLoading 2.5s
-				cubic-bezier(0.68, 0.76, 0.73, 0.97) infinite;
+			animation: progressBarLoading 1s linear infinite;
 		}
 	}
 }
