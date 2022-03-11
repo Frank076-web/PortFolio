@@ -2,12 +2,14 @@
 
 .header {
 	background-color: $backgroundColorPrimary;
-	color: $white;
+	color: #fff;
 	padding: 1.5rem;
 
-	p {
+	a {
 		margin: 0;
 		font-size: 1.6rem;
 		font-weight: bold;
+		text-decoration: none;
+		color: #fff;
 	}
 }

@@ -3,8 +3,10 @@
 @import '../../../styles/keyframes';
 
 .main {
+	@include boxShadow;
+	border-radius: 0.6rem;
 	background-color: $backgroundColorPrimary;
-	color: $white;
+	color: #fff;
 	@include flex(row, flex-start, center);
 
 	&__image {
@@ -22,6 +24,13 @@
 		width: 100%;
 		text-align: center;
 		padding: 1rem;
+
+		h4 {
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
 
 		h1 {
 			font-weight: bold;
@@ -58,8 +67,8 @@
 
 		&__contact {
 			h2 {
+				font-size: 1.4rem;
 				text-align: center;
-				color: $primary;
 			}
 			@include tablet {
 				h2 {
@@ -87,7 +96,7 @@
 			}
 
 			h2 {
-				color: $primary;
+				font-size: 1.4rem;
 				@include tablet {
 					text-align: center;
 				}
@@ -100,12 +109,10 @@
 					margin-bottom: 1rem;
 
 					@include tablet {
-						margin-left: 0.2rem;
-						margin-right: 0.2rem;
+						margin-left: 0.4rem;
+						margin-right: 0.4rem;
 					}
 					@include desktop {
-						width: 4rem;
-						height: 4rem;
 						margin: 1rem;
 					}
 
@@ -127,4 +134,8 @@
 			}
 		}
 	}
+}
+
+.animation-bounce {
+	animation: bounce 0.5s ease;
 }

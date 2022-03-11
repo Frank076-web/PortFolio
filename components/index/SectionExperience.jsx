@@ -51,9 +51,7 @@ const SectionExperience = () => {
 							index
 						) => (
 							<li className="section-experience__studies" key={index}>
-								<h4>
-									<bold>{institution}</bold>
-								</h4>
+								<h4>{institution}</h4>
 								<div className="container">
 									<h6>
 										{career ? career : null}{' '}

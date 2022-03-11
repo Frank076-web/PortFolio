@@ -1,10 +1,13 @@
 @import '../../../styles/variables';
+@import '../../../styles/mixin';
 
 .section-experience {
+	@include boxShadow;
 	background-color: $backgroundColorSecondary;
 	font-size: 1.4rem;
+	border-radius: 0.6rem;
 	h2 {
-		color: $primary;
+		color: $colorPrimary;
 		text-align: center;
 		font-weight: bold;
 		padding: 1rem 0;
@@ -21,6 +24,26 @@
 	&__interest {
 		padding: 0.6rem;
 		line-height: 1.3;
+	}
+
+	&__experience {
+		h4 {
+			font-size: 1.6rem;
+			padding: 0 0 1rem 0;
+		}
+		h6 {
+			font-size: 1.4rem;
+		}
+	}
+
+	&__studies {
+		h4 {
+			font-size: 1.6rem;
+			padding: 0 0 1rem 0;
+		}
+		h6 {
+			font-size: 1.4rem;
+		}
 	}
 
 	&__interest {
