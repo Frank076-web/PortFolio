@@ -43,9 +43,16 @@
 		border-radius: 1.3rem;
 		padding: 0.3rem;
 		&__bar {
-			background-color: $backgroundColorProgressBar;
+			background: repeating-linear-gradient(
+				135deg,
+				$backgroundColorProgressBar 0 80%,
+				#fff 99% 100%
+			);
+			background-size: 200%;
 			height: 0.4rem;
 			border-radius: 1rem;
+			animation: progressBarLoading 2.5s
+				cubic-bezier(0.68, 0.76, 0.73, 0.97) infinite;
 		}
 	}
 }
