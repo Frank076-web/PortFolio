@@ -97,9 +97,7 @@
 
 			h2 {
 				font-size: 1.4rem;
-				@include tablet {
-					text-align: center;
-				}
+				text-align: center;
 			}
 			a {
 				img {
