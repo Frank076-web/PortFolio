@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { getAge } from '../../utils/getAge';
 
 const AcercaMain = () => {
