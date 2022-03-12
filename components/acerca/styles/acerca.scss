@@ -3,10 +3,11 @@
 
 .main-acerca {
 	padding: 1rem;
-	color: $colorSecondaryDark;
+	color: $colorPrimary;
 	font-size: 1.4rem;
 
 	&__card {
+		animation: scaleAdapt 1s linear;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 1rem;
@@ -15,6 +16,7 @@
 	}
 
 	&__card--container {
+		animation: visibleImg 1.5s cubic-bezier(1, 0.89, 0.45, 0.96);
 		@include desktop {
 			margin-bottom: 4rem;
 		}
@@ -24,9 +26,12 @@
 		text-align: center;
 	}
 	&__card--content {
-		@include flex(row, center, center, nowrap);
+		@include desktop {
+			@include flex(row, center, center, nowrap);
+		}
 
 		img {
+			display: block;
 			width: 80%;
 			height: auto;
 			margin-left: auto;
@@ -37,17 +42,17 @@
 				width: 18rem;
 				height: 18rem;
 				margin-bottom: 4rem;
-				margin-left: 4rem;
 			}
 			@include desktop {
 				margin-bottom: 0;
+				margin-left: 4rem;
 			}
 		}
 		p {
 			margin-top: 1rem;
 			margin-left: 0.8rem;
 			margin-right: 0.8rem;
-			color: $colorSecondary;
+			color: #fff;
 
 			text-align: center;
 			@include tablet {

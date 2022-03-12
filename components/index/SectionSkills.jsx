@@ -16,7 +16,7 @@ const SectionSkills = () => {
 							<div
 								className="section-skills__progressbar__bar"
 								style={{ width: `${level}` }}
-							/>
+							></div>
 						</div>
 					</div>
 				))}

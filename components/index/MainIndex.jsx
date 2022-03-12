@@ -18,13 +18,7 @@ const MainIndex = () => {
 	return (
 		<main className="main">
 			<div className="main__image">
-				<Image
-					src="/images/frank-image.png"
-					alt="Image-curriculum"
-					width={300}
-					height={300}
-					objectFit="cover"
-				/>
+				<img src="/images/frank-image.png" alt="Imagen autor" />
 			</div>
 
 			<div className="main__text-container">
@@ -37,11 +31,9 @@ const MainIndex = () => {
 
 				<div className="main__contact-media">
 					<div className="main__contact-media__contact">
-						<h2>Contactame</h2>
-						<ul>
-							<li>Móvil: (011) 1533260503</li>
-							<li>Correo Electrónico: francoeinzerillo@gmail.com</li>
-						</ul>
+						<h2>Contactame:</h2>
+						<p>Móvil: (011) 1533260503</p>
+						<p>Correo Electrónico: francoeinzerillo@gmail.com</p>
 					</div>
 					<div className="main__contact-media__social">
 						<h2>Redes Sociales</h2>
@@ -58,6 +50,13 @@ const MainIndex = () => {
 								target="_blank"
 							>
 								<img src="/images/linkedin.svg" alt="linkedin" />
+							</a>
+							<a
+								href="https://github.com/Frank076-web"
+								rel="noreferrer"
+								target="_blank"
+							>
+								<img src="/images/gitHub.png" alt="linkedin" />
 							</a>
 						</div>
 					</div>

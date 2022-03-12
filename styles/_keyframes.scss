@@ -15,18 +15,56 @@
 		transform: translate(0, 0);
 	}
 	20% {
-		transform: translate(0, -0.1rem);
+		transform: translate(0, -0.15rem);
 	}
 	40% {
-		transform: translate(0, 0.1rem);
+		transform: translate(0, 0.15rem);
 	}
 	60% {
-		transform: translate(0, -0.1rem);
+		transform: translate(0, -0.15rem);
 	}
 	80% {
-		transform: translate(0, 0.1rem);
+		transform: translate(0, 0.15rem);
 	}
 	to {
 		transform: translate(0);
+	}
+}
+
+@keyframes visibleImg {
+	from {
+		opacity: 0.1;
+		transform: translateX(-100vw);
+	}
+	80% {
+		opacity: 0.6;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes scaleAdapt {
+	0% {
+		opacity: 0.1;
+		transform: scale(0.2);
+	}
+	50% {
+		opacity: 0.5;
+		transform: scale(1.2);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes progressBarLoading {
+	from {
+		background-position: 100% 0;
+	}
+	to {
+		background-position: -100% 0;
 	}
 }
