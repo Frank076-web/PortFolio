@@ -1,20 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { useEffect, useRef } from 'react';
-
 const MainIndex = () => {
-	const animatedLink = useRef();
-	useEffect(() => {
-		animatedLink.current.classList.toggle('animation-bounce');
-		const interval = setInterval(() => {
-			animatedLink.current.classList.toggle('animation-bounce');
-		}, 1000);
-
-		return () => {
-			clearInterval(interval);
-		};
-	}, []);
-
 	return (
 		<main className="main">
 			<div className="main__image">
@@ -24,9 +8,7 @@ const MainIndex = () => {
 			<div className="main__text-container">
 				<div className="main__title">
 					<h1>Franco Elias Inzerillo</h1>
-					<h4 ref={animatedLink}>
-						<Link href="/acerca">Desarrollador Web FrontEnd</Link>
-					</h4>
+					<h4>Desarrollador Web FrontEnd</h4>
 				</div>
 
 				<div className="main__contact-media">

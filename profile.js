@@ -39,6 +39,17 @@ export const skills = [
 
 export const experience = [
 	{
+		title: 'Frontend Developer React',
+		company: 'Alkemy',
+		duration: 'Enero-2022 Marzo-2022',
+		description: {
+			first: 'Simulación de trabajo real en equipo.',
+			second: 'Manejo de repositorios Git con Github.',
+			third: 'Metodologías Ágiles (Scrum).',
+			fourth: 'Uso de la herramienta Jira'
+		}
+	},
+	{
 		title: 'Tecnico Electrónico',
 		company: 'Laboratorios Eléctricos Argentinos S.A',
 		duration: '2016-Hasta el presente',
@@ -51,32 +62,10 @@ export const experience = [
 		duration: 'Mayo-2015 Julio-2015',
 		description:
 			'Montaje y soldado de componentes electrónicos. Empleado en pasantías por 200 horas.'
-	},
-	{
-		title: 'Frontend Developer React',
-		company: 'Alkemy',
-		duration: 'Enero-2022 Marzo-2022',
-		description: {
-			first: 'Simulación de trabajo real en equipo.',
-			second: 'Manejo de repositorios Git con Github.',
-			third: 'Metodologías Ágiles (Scrum).',
-			fourth:
-				'Uso de la herramienta Jira para gestionar los proyectos.'
-		}
 	}
 ];
 
 export const education = [
-	{
-		institution: 'Instituto Parroquial San Juan XXIII',
-		career: 'Técnico Electrónico',
-		duration: '2010-2015',
-		description: {
-			first:
-				'Análisis, Medición y calculos de circuitos electrónicos.',
-			second: 'Programación en C y microcontroladores'
-		}
-	},
 	{
 		institution: 'UDEMY',
 		description: {
@@ -89,6 +78,16 @@ export const education = [
 		description: {
 			first: 'Plataformas como youtube.',
 			second: 'Leyendo documentación oficial.'
+		}
+	},
+	{
+		institution: 'Instituto Parroquial San Juan XXIII',
+		career: 'Técnico Electrónico',
+		duration: '2010-2015',
+		description: {
+			first:
+				'Análisis, Medición y calculos de circuitos electrónicos.',
+			second: 'Programación en C y microcontroladores'
 		}
 	}
 ];

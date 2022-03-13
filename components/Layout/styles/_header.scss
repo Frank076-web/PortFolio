@@ -5,11 +5,17 @@
 	color: #fff;
 	padding: 1.5rem;
 
-	a {
-		margin: 0;
-		font-size: 1.6rem;
-		font-weight: bold;
-		text-decoration: none;
-		color: #fff;
+	&__link {
+		a {
+			margin: 0;
+			font-size: 1.6rem;
+			font-weight: bold;
+			text-decoration: none;
+			color: #fff;
+		}
+
+		&--acerca {
+			margin-left: 2rem;
+		}
 	}
 }
