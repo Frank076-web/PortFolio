@@ -14,7 +14,7 @@ const MainIndex = () => {
 				<div className="main__contact-media">
 					<div className="main__contact-media__contact">
 						<h2>Contactame:</h2>
-						<p>Móvil: (011) 1533260503</p>
+						<p>Móvil: +54 9 (011) 3326-0503</p>
 						<p>Correo Electrónico: francoeinzerillo@gmail.com</p>
 					</div>
 					<div className="main__contact-media__social">

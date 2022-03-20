@@ -70,7 +70,8 @@ export const education = [
 		institution: 'UDEMY',
 		description: {
 			first: 'Desarrollo web HTML, CSS, Javascript.',
-			second: 'Programación en C y microcontroladores.'
+			second: 'Javascript Moderno.',
+			third: 'React.'
 		}
 	},
 	{
@@ -87,7 +88,7 @@ export const education = [
 		description: {
 			first:
 				'Análisis, Medición y calculos de circuitos electrónicos.',
-			second: 'Programación en C y microcontroladores'
+			second: 'Programación en C y microcontroladores.'
 		}
 	}
 ];
