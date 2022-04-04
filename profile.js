@@ -41,7 +41,7 @@ export const experience = [
 	{
 		title: 'Frontend Developer React',
 		company: 'Alkemy',
-		duration: 'Enero-2022 Marzo-2022',
+		duration: 'Enero-2022 Hasta el presente',
 		description: {
 			first: 'Simulación de trabajo real en equipo.',
 			second: 'Manejo de repositorios Git con Github.',
@@ -60,8 +60,7 @@ export const experience = [
 		title: 'Tecnico Electrónico',
 		company: 'STILUX. Electrónica industrial',
 		duration: 'Mayo-2015 Julio-2015',
-		description:
-			'Montaje y soldado de componentes electrónicos. Empleado en pasantías por 200 horas.'
+		description: 'Montaje y soldado de componentes electrónicos. Empleado en pasantías por 200 horas.'
 	}
 ];
 
@@ -86,8 +85,7 @@ export const education = [
 		career: 'Técnico Electrónico',
 		duration: '2010-2015',
 		description: {
-			first:
-				'Análisis, Medición y calculos de circuitos electrónicos.',
+			first: 'Análisis, Medición y calculos de circuitos electrónicos.',
 			second: 'Programación en C y microcontroladores.'
 		}
 	}
@@ -97,8 +95,7 @@ export const projects = [
 	{
 		image: '/images/portada somos mas.png',
 		title: 'Somos Más',
-		description:
-			'Página web para la ong Somos Más, centro de ayuda comunitaria',
+		description: 'Página web para la ong Somos Más, centro de ayuda comunitaria',
 		link: 'https://ongsomosmasfrank076.netlify.app'
 	},
 	{
@@ -106,5 +103,11 @@ export const projects = [
 		title: 'Buscador Héroes Marvel',
 		description: 'Página web buscador de heroes , armá tu equipo.',
 		link: 'https://buscadorheroesalkemy.netlify.app'
+	},
+	{
+		image: '/images/where-in-the-world.jpg',
+		title: 'Buscador Países',
+		description: 'Página web para buscar países de todo el mundo',
+		link: 'https://where-in-the-world-frank076web.netlify.app/'
 	}
 ];
