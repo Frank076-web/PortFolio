@@ -23,7 +23,7 @@ const MainIndex = () => {
                             <a href="https://ultramsg.com/m/3vIWHnu">
                                 <img src="/images/whatsapp.svg" alt="whatsapp" />
                             </a>
-                            <a href="mailto:francoeinzerillo@gmai.com?">
+                            <a href="mailto:francoeinzerillo@gmail.com?">
                                 <img src="/images/gmail.svg" alt="gmail" />
                             </a>
                             <a href="https://www.linkedin.com/in/franco-elias-inzerillo-9b1a37163" rel="noreferrer" target="_blank">
