@@ -1,7 +1,5 @@
 import { education, experience } from "../../profile";
 
-console.log(education);
-
 const SectionExperience = () => {
     return (
         <section className="section-experience">
