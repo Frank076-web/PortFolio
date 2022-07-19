@@ -4,6 +4,7 @@ export const skills = [
     new Skill("Html", "HTML5.png", "html", "90%"),
     new Skill("Css", "CSS3.png", "css", "85%"),
     new Skill("Javascript", "Javascript.png", "javascript", "90%"),
+    new Skill("Typescript", "typescript.png", "typescript", "65%"),
     new Skill("React", "REACT.png", "react", "90%"),
     new Skill("Sass", "Sass.png", "sass", "80%"),
     new Skill("Java", "java.png", "java", "40%"),
