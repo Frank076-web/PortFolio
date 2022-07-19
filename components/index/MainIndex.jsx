@@ -8,7 +8,7 @@ const MainIndex = () => {
             <div className="main__text-container">
                 <div className="main__title">
                     <h1>Franco Elias Inzerillo</h1>
-                    <h4>Desarrollador Web FrontEnd</h4>
+                    <h4>Desarrollador Web FullStack</h4>
                 </div>
 
                 <div className="main__contact-media">
