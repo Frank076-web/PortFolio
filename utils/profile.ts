@@ -1,6 +1,6 @@
-import { Skill, Experience, Education, Project } from "./utils/classesProfile";
+import { Skill, Experience, Education, Project } from "./classesProfile";
 
-export const skills = [
+export const skills: Skill[] = [
     new Skill("Html", "HTML5.png", "html", "90%"),
     new Skill("Css", "CSS3.png", "css", "85%"),
     new Skill("Javascript", "Javascript.png", "javascript", "90%"),
@@ -12,7 +12,7 @@ export const skills = [
     new Skill("Git", "git.png", "git", "50%"),
 ];
 
-export const experience = [
+export const experience: Experience[] = [
     //Experience => title, company, duration, description
     new Experience("Frontend Developer React", "Alkemy", "Enero-2022 Hasta el presente", ["Simulación de trabajo real en equipo.", "Manejo de repositorios Git con Github.", "Metodologías Ágiles (Scrum).", "Uso de la herramienta Jira"]),
     new Experience(
@@ -24,14 +24,14 @@ export const experience = [
     new Experience("Tecnico Electrónico", "STILUX. Electrónica industrial", "Mayo-2015 Julio-2015", "Montaje y soldado de componentes electrónicos. Empleado en pasantías por 200 horas."),
 ];
 
-export const education = [
+export const education: Education[] = [
     //Education => institution, career, duration, description
     new Education("UDEMY", "", "", ["Desarrollo web HTML, CSS, Javascript.", "Javascript Moderno.", "React.", "Máster completo en Java."]),
     new Education("Autodidacta", "", "", ["Plataformas como youtube.", "Leyendo documentación oficial."]),
     new Education("Instituto Parroquial San Juan XXIII", "Técnico Electrónico", "2010-2015", ["Análisis, Medición y calculos de circuitos electrónicos.", "Programación en C y microcontroladores."]),
 ];
 
-export const projects = [
+export const projects: Project[] = [
     //Projects => image, title, description, link
     new Project("/images/portada somos mas.png", "Somos Más", "Página web para la ong Somos Más, centro de ayuda comunitaria", "https://ongsomosmasfrank076.netlify.app"),
     new Project("/images/marvel.jpg", "Buscador Héroes Marvel", "Página web buscador de heroes , armá tu equipo.", "https://buscadorheroesalkemy.netlify.app"),

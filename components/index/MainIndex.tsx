@@ -1,4 +1,4 @@
-const MainIndex = () => {
+const MainIndex = (): JSX.Element => {
     return (
         <main className="main">
             <div className="main__image">

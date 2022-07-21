@@ -1,6 +1,6 @@
 import { getAge } from "../../utils/getAge";
 
-const AcercaMain = () => {
+const AcercaMain = (): JSX.Element => {
     let age = getAge("1995-03-19 03:30:00");
 
     return (

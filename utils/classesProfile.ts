@@ -1,5 +1,10 @@
 export class Skill {
-    constructor(name, image, alt, level) {
+    name;
+    image;
+    alt;
+    level;
+
+    constructor(name: string, image: string, alt: string, level: string) {
         this.name = name;
         this.image = `/images/${image}`;
         this.alt = alt;
@@ -8,7 +13,12 @@ export class Skill {
 }
 
 export class Experience {
-    constructor(title, company, duration, description) {
+    title;
+    company;
+    duration;
+    description;
+
+    constructor(title: string, company: string, duration: string, description: string | string[]) {
         this.title = title;
         this.company = company;
         this.duration = duration;
@@ -18,7 +28,7 @@ export class Experience {
 }
 
 export class Description {
-    constructor(description) {
+    constructor(description: string | string[]) {
         for (let i = 0; i < description.length; i++) {
             this[i] = description[i];
         }
@@ -26,7 +36,12 @@ export class Description {
 }
 
 export class Education {
-    constructor(institution, career = null, duration = null, description) {
+    institution;
+    career;
+    duration;
+    description;
+
+    constructor(institution: string, career: string = null, duration: string = null, description: string | string[]) {
         this.institution = institution;
         this.career = career;
         this.duration = duration;
@@ -36,7 +51,12 @@ export class Education {
 }
 
 export class Project {
-    constructor(image, title, description, link) {
+    image;
+    title;
+    description;
+    link;
+
+    constructor(image: string, title: string, description: string, link: string) {
         this.image = image;
         this.title = title;
         this.description = description;
