@@ -13,9 +13,6 @@ const Skills = ({ skills }: Props): JSX.Element => {
                         <h5>{name}</h5>
                         <img src={image} alt={alt} />
                     </div>
-                    <div className="section-skills__progressbar">
-                        <div className="section-skills__progressbar__bar" style={{ width: `${level}` }}></div>
-                    </div>
                 </div>
             ))}
         </>

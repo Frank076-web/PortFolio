@@ -10,6 +10,7 @@ export const skills: Skill[] = [
     new Skill("Java", "java.png", "java", "40%"),
     new Skill("NextJS", "NextJs.png", "nextjs", "30%"),
     new Skill("Git", "git.png", "git", "50%"),
+    new Skill("MySql", "mysql.png", "sql", "50%"),
 ];
 
 export const experience: Experience[] = [
