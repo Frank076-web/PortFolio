@@ -11,7 +11,7 @@ export default function Contact() {
 					<h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
 						Hablemos <span className="text-purple-400">Juntos</span>
 					</h2>
-					<div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mb-6"></div>
+					<div className="w-24 h-1 bg-linear-to-r from-purple-400 to-pink-400 mx-auto mb-6"></div>
 					<p className="text-gray-300 text-lg max-w-2xl mx-auto">
 						¿Buscas un profesional para unirte a tu equipo? Me
 						encantaría conocer más sobre las oportunidades en tu

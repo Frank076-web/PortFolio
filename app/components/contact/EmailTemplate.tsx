@@ -9,7 +9,7 @@ export function EmailTemplate({ email, name, subject, message }: Email) {
 				Nuevo mensaje desde tu portfolio
 			</h2>
 
-			<div className="bg-white rounded-lg shadow p-4 space-y-3">
+			<div className="bg-white rounded-lg shadow-sm p-4 space-y-3">
 				<div>
 					<p className="text-gray-500 text-sm">Nombre:</p>
 					<p className="font-semibold">{name}</p>

@@ -25,7 +25,7 @@ export default function Navigation() {
 			className={cn(
 				`fixed top-0 w-full z-50 transition-all duration-300`,
 				{
-					'bg-slate-900/95 backdrop-blur-sm shadow-lg': scrolled,
+					'bg-slate-900/95 backdrop-blur-xs shadow-lg': scrolled,
 					'bg-transparent': !scrolled,
 				}
 			)}

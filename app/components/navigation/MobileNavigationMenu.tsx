@@ -13,7 +13,7 @@ export function MobileNavigationMenu({ navItems, isOpen, handleClose }: Props) {
 	return (
 		<>
 			{isOpen && (
-				<div className="md:hidden bg-slate-800/95 backdrop-blur-sm rounded-lg mt-2 py-4">
+				<div className="md:hidden bg-slate-800/95 backdrop-blur-xs rounded-lg mt-2 py-4">
 					{navItems.map((item) => (
 						<a
 							key={item.href}

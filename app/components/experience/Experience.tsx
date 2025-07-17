@@ -12,7 +12,7 @@ export default function Experience() {
 					<h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
 						Mi <span className="text-purple-400">Trayectoria</span>
 					</h2>
-					<div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto"></div>
+					<div className="w-24 h-1 bg-linear-to-r from-purple-400 to-pink-400 mx-auto"></div>
 				</div>
 
 				<div className="grid lg:grid-cols-2 gap-12">

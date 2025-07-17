@@ -52,7 +52,7 @@ export default function Projects() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Mis <span className="text-purple-400">Proyectos</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-linear-to-r from-purple-400 to-pink-400 mx-auto mb-6"></div>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             Una selección de proyectos que demuestran mis habilidades y experiencia en desarrollo web y móvil.
           </p>
@@ -65,10 +65,10 @@ export default function Projects() {
               className="group relative bg-slate-700/30 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl"
             >
               <div className="relative overflow-hidden">
-                <div className="w-full h-64 bg-gradient-to-br from-purple-600/20 to-pink-600/20 flex items-center justify-center">
+                <div className="w-full h-64 bg-linear-to-br from-purple-600/20 to-pink-600/20 flex items-center justify-center">
                   <div className="text-6xl opacity-50">🚀</div>
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
                 {project.featured && (
                   <div className="absolute top-4 left-4">
@@ -79,7 +79,7 @@ export default function Projects() {
                 <div className="absolute bottom-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.github}
-                    className="p-2 bg-gray-800/80 rounded-full hover:bg-gray-700 transition-colors backdrop-blur-sm"
+                    className="p-2 bg-gray-800/80 rounded-full hover:bg-gray-700 transition-colors backdrop-blur-xs"
                     aria-label="Ver código en GitHub"
                   >
                     <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -88,7 +88,7 @@ export default function Projects() {
                   </a>
                   <a
                     href={project.demo}
-                    className="p-2 bg-purple-600/80 rounded-full hover:bg-purple-500 transition-colors backdrop-blur-sm"
+                    className="p-2 bg-purple-600/80 rounded-full hover:bg-purple-500 transition-colors backdrop-blur-xs"
                     aria-label="Ver demo en vivo"
                   >
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

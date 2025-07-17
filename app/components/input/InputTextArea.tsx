@@ -9,7 +9,7 @@ export function InputTextArea({ className, ...rest }: Props) {
 		<textarea
 			{...rest}
 			className={cn(
-				'w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 focus:ring-1 focus:ring-purple-400 transition-colors resize-none',
+				'w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-hidden focus:border-purple-400 focus:ring-1 focus:ring-purple-400 transition-colors resize-none',
 				className
 			)}
 		/>

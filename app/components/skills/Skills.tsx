@@ -12,7 +12,7 @@ export default function Skills() {
 					<h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
 						Mis <span className="text-purple-400">Habilidades</span>
 					</h2>
-					<div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto" />
+					<div className="w-24 h-1 bg-linear-to-r from-purple-400 to-pink-400 mx-auto" />
 				</div>
 
 				<div className="grid lg:grid-cols-2 gap-12">
@@ -54,7 +54,7 @@ export default function Skills() {
 							))}
 						</div>
 
-						<div className="p-6 bg-gradient-to-r from-purple-600/20 to-pink-600/20 rounded-lg border border-purple-500/30">
+						<div className="p-6 bg-linear-to-r from-purple-600/20 to-pink-600/20 rounded-lg border border-purple-500/30">
 							<h4 className="text-xl font-semibold text-white mb-4">
 								Metodologías
 							</h4>

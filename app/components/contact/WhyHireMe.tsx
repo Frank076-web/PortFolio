@@ -1,6 +1,6 @@
 export async function WhyHireMe() {
 	return (
-		<div className="mt-8 p-6 bg-gradient-to-r from-purple-600/20 to-pink-600/20 rounded-lg border border-purple-500/30">
+		<div className="mt-8 p-6 bg-linear-to-r from-purple-600/20 to-pink-600/20 rounded-lg border border-purple-500/30">
 			<h4 className="text-white font-semibold mb-4">
 				¿Por qué sumarme a tu equipo?
 			</h4>

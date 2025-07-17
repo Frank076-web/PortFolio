@@ -15,7 +15,7 @@ export default function WhoAmI() {
 				{/* Title */}
 				<h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
 					Hola, soy{' '}
-					<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+					<span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-pink-400">
 						Franco Elias Inzerillo
 					</span>
 				</h1>
@@ -32,12 +32,12 @@ export default function WhoAmI() {
 				<SocialMedia />
 
 				<div className="flex flex-col sm:flex-row gap-4 justify-center">
-					<a
+					{/* <a
 						href="#proyectos"
-						className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
+						className="px-8 py-4 bg-linear-to-r from-purple-600 to-pink-600 text-white rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
 					>
 						Ver Proyectos
-					</a>
+					</a> */}
 					<a
 						href="#contacto"
 						className="px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold hover:bg-purple-400 hover:text-white transition-all duration-300"
