@@ -8,12 +8,29 @@ export const experiences: Experience[] = [
 		period: 'Marzo 2024 - Julio 2025',
 		location: 'Buenos Aires',
 		description: [
-			'Desarrollo de aplicaciones web escalables con Next.js y Tailwind',
-			'Implementación de autenticación personalizada y multilenguaje',
-			'Soporte a aplicaciones móviles con Flutter',
-			'Colaboración en un entorno ágil con gestión en Jira',
+			`
+				Desarrollo móvil con Flutter:
+				Creación de aplicaciones cross-platform (iOS/Android) con
+				Flutter Framework, implementando arquitecturas limpias
+				(Clean Architecture, Riverpod) y optimización de rendimiento.
+				Integración de APIs RESTful/GraphQL para funcionalidades
+				como autenticación personalizada (JWT, OAuth), gestión de
+				usuarios.
+			`,
+			`
+				Desarrollo web con Next.js:
+				Construcción de aplicaciones web escabables y SSR (Server-
+				Side Rendering) usando Next.js, React Hooks y Tailwind CSS
+				para interfaces responsivas y modernas.
+				Implementación de rutas dinámicas, autenticación
+				(NextAuth.js) y gestión de estado (Zustand).
+				Conexión con backends
+				Optimización de SEO y desempeño (Lighthouse, Web Vitals).
+				Soporte multilenguaje (i18n) y accesibilidad, asegurando
+				compatibilidad con estándares internacionales.
+				`,
 		],
-		technologies: ['Next.js', 'Tailwind', 'Flutter', 'Jira'],
+		technologies: ['Next.js', 'Typescript', 'Flutter', 'Dart', 'Tailwind'],
 		current: false,
 	},
 	{
@@ -37,11 +54,12 @@ export const experiences: Experience[] = [
 		period: 'Abril 2016 - Febrero 2024',
 		location: 'Buenos Aires',
 		description: [
-			'Desarrollo de aplicaciones y software',
-			'Formación continua y actualización de habilidades técnicas',
-			'Implementación y mantenimiento de soluciones de software',
+			'Diagnóstico, reparación y mantenimiento de equipos electrónicos, principalmente cablemódems y decodificadores, asegurando su correcto funcionamiento.',
+			'Realización de pruebas técnicas (testeos) para verificar el rendimiento de los dispositivos, identificando fallas en componentes  lectrónicos (placas, fuentes de alimentación, circuitos integrados, etc.).',
+			'Reemplazo de piezas defectuosas y soldadura de componentes SMD y THT.',
+			'Manejo de herramientas e instrumentos de medición (multímetros, osciloscopios, fuentes de alimentación)'
 		],
-		technologies: ['Software Development', 'Technical Support'],
+		technologies: ['Soporte Técnico'],
 		current: false,
 	},
 ];
