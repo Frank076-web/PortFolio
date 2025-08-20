@@ -46,11 +46,10 @@ export async function ProfessionalCareer() {
 				</div>
 				<div>
 					<h4 className="text-xl font-semibold text-white mb-2">
-						Backend &amp; Sistemas Legacy
+						Backend
 					</h4>
 					<p className="text-gray-300">
-						Experiencia con FastAPI, Python, REST APIs y actualmente
-						formándome en tecnologías mainframe como COBOL y DB2.
+						Experiencia con FastAPI, Python, Express, Node, REST APIs, Docker, SQL
 					</p>
 				</div>
 			</div>
