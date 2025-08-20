@@ -4,10 +4,7 @@ import { WritingText } from './WritingText';
 
 export default function WhoAmI() {
 	return (
-		<section
-			id="init"
-			className="min-h-screen flex items-center justify-center relative overflow-hidden"
-		>
+		<section id="init" className="min-h-screen flex items-center justify-center relative overflow-hidden">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
 				{/* Hero Image */}
 				<Hero />
@@ -15,18 +12,14 @@ export default function WhoAmI() {
 				{/* Title */}
 				<h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
 					Hola, soy{' '}
-					<span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-pink-400">
-						Franco Elias Inzerillo
-					</span>
+					<span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-pink-400">Franco Elias Inzerillo</span>
 				</h1>
 
 				<WritingText />
 
 				<p className="text-xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-					Desarrollador Fullstack con experiencia en entornos ágiles y
-					tecnologías modernas como Next.js, Flutter y TypeScript.
-					Actualmente ampliando mis conocimientos hacia el ecosistema
-					mainframe con COBOL, JCL y DB2.
+					Desarrollador Fullstack con experiencia en entornos ágiles y tecnologías modernas como Next.js, TypeScript, Flutter,
+					Dart, FastApi, Python
 				</p>
 
 				<SocialMedia />
