@@ -14,15 +14,15 @@ export async function Description() {
 
 			<div className="grid grid-cols-3 gap-4 text-center">
 				<div className="p-4 bg-slate-700/50 rounded-lg hover:bg-slate-700/70 transition-colors">
-					<div className="text-2xl font-bold text-purple-400">3+</div>
+					<div className="text-2xl font-bold text-purple-400">4+</div>
 					<div className="text-gray-400 text-sm">Años Exp.</div>
 				</div>
 				<div className="p-4 bg-slate-700/50 rounded-lg hover:bg-slate-700/70 transition-colors">
-					<div className="text-2xl font-bold text-purple-400">10+</div>
+					<div className="text-2xl font-bold text-purple-400">4+</div>
 					<div className="text-gray-400 text-sm">Proyectos</div>
 				</div>
 				<div className="p-4 bg-slate-700/50 rounded-lg hover:bg-slate-700/70 transition-colors">
-					<div className="text-2xl font-bold text-purple-400">A2</div>
+					<div className="text-2xl font-bold text-purple-400">B2</div>
 					<div className="text-gray-400 text-sm">Inglés</div>
 				</div>
 			</div>

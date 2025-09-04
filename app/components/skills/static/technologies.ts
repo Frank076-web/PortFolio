@@ -25,10 +25,4 @@ export const technologies: Technology[] = [
 		alt: 'fastapi-icon',
 	},
 	{ name: 'Python', iconSrc: 'icons/python-icon.webp', alt: 'python-icon' },
-	{ name: 'COBOL', iconSrc: 'icons/cobol-icon.webp', alt: 'cobol-icon' },
-	{
-		name: 'DB2',
-		iconSrc: 'icons/cobol-db2-icon.webp',
-		alt: 'cobol-db2-icon',
-	},
 ];
